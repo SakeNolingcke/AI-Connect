@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue_bk_main">#E6F9FF</color>
+    <color name="_81ffaf">#81FFAF</color>
+    <color name="bk_fgm">#D9DDE8</color>
+    <color name="bt_bk">#2dc9fc</color>
+    <color name="ffc4c4">#FFC4C4</color>
+    <color name="list_click_bg">#65636363</color>
+    <color name="e40000">#E40000</color>
+</resources>

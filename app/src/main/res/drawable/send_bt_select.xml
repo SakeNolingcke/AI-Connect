@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="false">
+        <layer-list>
+            <item android:width="40dp" android:height="40dp"
+                android:drawable="@color/transparent"/>
+            <item android:width="30dp" android:height="30dp"
+                android:drawable="@drawable/send_bt_enabled"
+                android:gravity="center"
+                android:top="2dp"
+                android:end="2dp" />
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:width="40dp" android:height="40dp">
+                <shape android:shape="oval">
+                    <size android:height="40dp" android:width="40dp"/>
+                    <solid android:color="@color/bt_bk"/>
+                </shape>
+            </item>
+            <item android:width="30dp" android:height="30dp"
+                android:drawable="@drawable/send_bt_press"
+                android:gravity="center"
+                android:top="2dp"
+                android:end="2dp"/>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:width="40dp" android:height="40dp"
+                android:drawable="@color/transparent"/>
+            <item android:width="30dp" android:height="30dp"
+                android:drawable="@drawable/send_bt_idle"
+                android:gravity="center"
+                android:top="2dp"
+                android:end="2dp" />
+        </layer-list>
+    </item>
+</selector>

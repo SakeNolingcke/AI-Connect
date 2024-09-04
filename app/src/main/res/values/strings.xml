@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AI聊天</string>
+    <string name="todo">TODO</string>
+    <string name="main_text_hint">请输入消息</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bt_text_fm1">开始对话</string>
+    <string name="main_home_text">首页</string>
+    <string name="main_dialogue_text">对话</string>
+    <string name="main_person_text">个人</string>
+    <string name="title_fgm2">TE助手</string>
+    <string name="person_data">个人资料</string>
+    <string name="history">历史记录</string>
+    <string name="splash">闪屏页</string>
+    <string name="exit">退出登录</string>
+    <string name="delete_all_bt">清空所有</string>
+</resources>
